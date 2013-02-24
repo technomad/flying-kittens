@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Bouncing Ball</title>
+		<link rel="stylesheet" href="ball-demo.css">
+	</head>
+
+	<body>
+
+		<div class="red ball"></div>
+		<div class="ball shadow"></div>
+		<div class="count">
+			<p>
+				Clicks: <span class="counter">0</span>
+			</p>
+		</div>
+
+		<footer>
+			<p>A silly demo for <a href="http://www.skillshare.com/Making-Kittens-Fly-With-Javascript/1655013951/447317058/">Making Kittens Fly with JavaScript</a> by <a href="http://victorhoang.com">Victor Hoang</a></p>
+		</footer>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+
+				var $ball = $('div.red.ball'),
+						$shadow = $('div.ball.shadow'),
+						$counter = $('span.counter'),
+						count = 0;
+
+				$ball.click(function(){
+					
+					if(/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
+					 $shadow.addClass('moveShadow'); // fixes shadow position jumps after first ball click on Chrome, not sure why it happens
+					}
+
+					$ball
+						.animate({top : '-=100'}, 300, 'swing')
+							.animate({top : '+=100'}, 250, 'swing'),
+					$shadow
+						.animate({height: 50, width: 50, opacity: 0.4, left: '+=25', top: '+=25'}, 300, 'swing')
+							.animate({height: 100, width: 100, opacity: 1, left: '-=25', top: '-=25'}, 250, 'swing'),
+					count += 1,
+					$counter.text(count);
+
+					if (count == 3) {
+						$('<p></p>', {
+							text: 'Like clicking stuff, do you?',
+							class: 'note'
+						}).insertAfter($counter);
+					} 
+					else if (count == 6) {
+						$('p.note').text('Well, you just keep on clicking then.');
+					}
+					else if (count == 9) {
+						$ball.wrap('<a href="http://youtu.be/dQw4w9WgXcQ" target="_blank"></a>');
+					}
+					else if (count == 10) {
+						$('p.note').text(":) That's all folks."),
+						$ball.unwrap();
+					}; 
+				});
+			});
+		</script>
+
+	</body>
+</html>
