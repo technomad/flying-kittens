@@ -8,7 +8,7 @@ Some practice stuff with JavaScript/jQuery. Please view with FF or Chrome. Thank
 Credits
 -------
 
-Work by [Victor Hoang](http://victorhoang.com), a JS noob.
+Work by [Victor Hoang](http://victorhoang.com).
 
-[Making Kittens Fly With Javascript](http://www.skillshare.com/Making-Kittens-Fly-With-Javascript/1655013951/447317058/) is a SkillShare class taught by Jeff Escalante [(@jescalan)](http://twitter.com/#!/jescalan).
+[Making Kittens Fly With Javascript](http://www.skillshare.com/Making-Kittens-Fly-With-Javascript/1655013951/447317058/) is a SkillShare class taught by Jeff Escalante ([@jescalan](http://twitter.com/#!/jescalan)).
 
