@@ -282,6 +282,28 @@
 					<span class="piece corner tl"></span>
 					<span class="piece center"></span>
 				</div>
+				<div class="star s9">
+					<span class="piece top"></span>
+					<span class="piece right"></span>
+					<span class="piece bottom"></span>
+					<span class="piece left"></span>
+					<span class="piece corner tr"></span>
+					<span class="piece corner br"></span>
+					<span class="piece corner bl"></span>
+					<span class="piece corner tl"></span>
+					<span class="piece center"></span>
+				</div>
+				<div class="star s10">
+					<span class="piece top"></span>
+					<span class="piece right"></span>
+					<span class="piece bottom"></span>
+					<span class="piece left"></span>
+					<span class="piece corner tr"></span>
+					<span class="piece corner br"></span>
+					<span class="piece corner bl"></span>
+					<span class="piece corner tl"></span>
+					<span class="piece center"></span>
+				</div>
 			</div>
 		</div>
 
@@ -330,14 +352,10 @@
 				moveStar(star);
 			});
 		}
-		moveStar('.s1');
-		moveStar('.s2');
-		moveStar('.s3');
-		moveStar('.s4');
-		moveStar('.s5');
-		moveStar('.s6');
-		moveStar('.s7');
-		moveStar('.s8');
+
+		$('div.star').each(function() {
+			moveStar($(this));
+		});
 
 		function animateStar(){
 			var starTop = $('span.top'),
