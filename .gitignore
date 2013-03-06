@@ -165,3 +165,4 @@ pip-log.txt
 *.mp3
 *.ogg
 *.gif
+*animate-shadow-min.js

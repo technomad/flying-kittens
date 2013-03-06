@@ -1,0 +1,62 @@
+
+.board {
+	width: 960px;
+	height: 640px;
+	padding: 5px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.card {
+	vertical-align: top;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: #eee;
+	margin: 5px;
+	cursor: pointer;
+}
+.card p {
+	font-size: 24px;
+	color: black;
+	line-height: 150px;
+}
+.selected {
+	background: #E8E7AA;
+}
+.correct {
+	background: #B0C770;
+}
+.incorrect {
+	background: #DBAD68;
+}
+.buttonContainer {
+	width: 310px;
+	margin: 20px auto 0;
+}
+button {
+	background: #eee;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	font: 16px/1.5 Georgia, serif;
+	cursor: pointer;
+}
+.start {
+	background: #B0C770;
+}
+.pause {
+	background: #DBAD68;
+}
+.alertContainer {
+	position: relative;
+	height: 0;
+	width: 310px;
+	margin: 0 auto;
+}
+.alert {
+	position: absolute;
+	top: -60px;
+	width: 100%;
+	padding: 10px 0;
+	background: #B0C770;
+}

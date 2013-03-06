@@ -6,6 +6,8 @@
 		<meta charset="UTF-8">
 		<title>Bouncing Ball</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+		<link rel="stylesheet" href="base.css">
 		<link rel="stylesheet" href="ball-demo.css">
 		<!--[if IE]> 
 			<style type="text/css">
@@ -26,12 +28,7 @@
 			</p>
 		</div>
 
-		<footer>
-			<p>A silly demo for <a href="http://www.skillshare.com/Making-Kittens-Fly-With-Javascript/1655013951/447317058/">Making Kittens Fly with JavaScript</a> by <a href="http://victorhoang.com">Victor Hoang</a>.</p>
-			<p>
-				<a href="https://github.com/choklates/flying-kittens">See it on GitHub</a> or <a href="http://victorhoang.com/projects/flying-kittens/nyan-cat.html">see the Nyan Cat</a>.
-			</p>
-		</footer>
+		<?php include('footer.php'); ?>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="jquery.animate-shadow-min.js"></script>

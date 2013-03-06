@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 16px/1.5 Georgia, serif;
+	color: #555;
+	background: #fff;
+}
+p {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	opacity: 0.5;
+	-webkit-transition: opacity 300ms ease-in-out;
+	-moz-transition: opacity 300ms ease-in-out;
+	-o-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+}
+footer:hover {
+	opacity: 1;
+}

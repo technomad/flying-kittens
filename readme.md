@@ -3,8 +3,9 @@ Some practice stuff with JavaScript/jQuery. Please view with FF or Chrome. Thank
 
 ##Demos
 
-###[Nyan Cat](http://victorhoang.com/projects/flying-kittens/nyan-cat.html)
-###[Bouncing Ball](http://victorhoang.com/projects/flying-kittens/ball-demo.html)
+###[Flip Card](http://victorhoang.com/projects/flying-kittens/flip-card.php)
+###[Nyan Cat](http://victorhoang.com/projects/flying-kittens/nyan-cat.php)
+###[Bouncing Ball](http://victorhoang.com/projects/flying-kittens/ball-demo.php)
 
 Credits
 -------

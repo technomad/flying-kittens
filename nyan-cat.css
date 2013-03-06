@@ -1,0 +1,110 @@
+.container {
+	width: 550px;
+	height: 500px;
+	background: #0d4279;
+	margin: 50px auto 0;
+	overflow: hidden;
+	position: relative;
+}
+.nyan {
+	display: block;
+	width: 250px;
+	margin: 170px auto;
+	position: relative;
+	z-index: 10;
+}
+.rainbow {
+	position: absolute;
+	left: 150px;
+	top: 180px;
+}
+.one {
+}
+.two {
+	left: 87px;
+	top: 186px;
+}
+.three {
+	left: 24px;
+}
+.four {
+	left: -39px;
+	top: 186px;
+}
+.color {
+	width: 63px;
+	height: 22px;
+}
+.red {
+	background: #ff2a0f;
+}
+.orange {
+	background: #ffaa00;
+}
+.yellow {
+	background: #fff400;
+}
+.green {
+	background: #32ea06;
+}
+.blue {
+	background: #04a4ff;
+}
+.purple {
+	background: #7955ff;
+}
+.stars {
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.star {
+	position: absolute;
+	left: 550px;
+	top: 0px;
+}
+.starTest {
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+.piece, .test {
+	display: block;
+	height: 5px;
+	width: 5px;
+	background: white;
+	position: absolute;
+}
+.test {
+	background: red;
+	left: 50px;
+	top: 50px;
+	position: absolute;
+}
+.tl {
+	top: -10px;
+	left: -10px;
+}
+.tr {
+	top: -10px;
+	left: 10px;
+}
+.br {
+	top: 10px;
+	left: 10px;
+}
+.bl {
+	top: 10px;
+	left: -10px;
+}
+.center {
+	display: none;
+}
+.nyan-mp3 {
+	margin: 20px auto 0;
+	width: 300px;
+	display: block;
+}
